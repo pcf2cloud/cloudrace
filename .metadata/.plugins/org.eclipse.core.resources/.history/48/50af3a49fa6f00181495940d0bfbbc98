@@ -1,0 +1,8 @@
+spring.application.name=PCFDemo
+spring.datasource.url=${vcap.services.mysql-db.credentials.url}
+spring.datasource.username=${vcap.services.mysql-db.credentials.username}
+spring.datasource.password =${vcap.services.mysql-db.credentials.password}
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+server.port=8099
