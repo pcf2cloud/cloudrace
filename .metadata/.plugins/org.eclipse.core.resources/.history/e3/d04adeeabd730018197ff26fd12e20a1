@@ -1,9 +1,0 @@
-applications:
-  - name: PCFDemo
-    path: target/PCFDemo-0.0.1-SNAPSHOT.jar
-    memory: 1024m
-    buildpack: https://github.com/cloudfoundry/java-buildpack.git
-    env:
-     spring_jpa_hibernate_ddl-auto : create
-    services: 
-    - mysql-db

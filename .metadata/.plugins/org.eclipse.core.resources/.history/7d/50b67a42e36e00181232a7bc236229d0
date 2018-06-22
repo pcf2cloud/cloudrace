@@ -1,2 +1,0 @@
-server.port = 8062
-spring.application.name = zipkin-server2
